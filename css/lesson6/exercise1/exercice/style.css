@@ -1,0 +1,10 @@
+nav:hover {
+    background-color: goldenrod;
+    transition: background-color 0.3s; color: whitesmoke 0,3s;
+}
+#un,#deux{
+    display: none;
+}
+#un:target, #deux:target{
+    display: block;
+}
